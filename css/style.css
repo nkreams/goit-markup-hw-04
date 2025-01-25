@@ -2,6 +2,14 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 body {
   margin: 0 auto;
@@ -60,7 +68,6 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  position: relative;
 }
 .textlogo {
   color: #2e2f42;
@@ -70,7 +77,8 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #404bbf;
+  position: relative;
 }
 .contact {
   font-style: normal;
