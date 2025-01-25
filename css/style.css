@@ -305,7 +305,7 @@ ul {
   font-weight: 400;
   text-align: left;
 }
-.mainheader::after {
+::after {
   content: "";
   width: 100%;
   position: absolute;
