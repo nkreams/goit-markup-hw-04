@@ -72,18 +72,19 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.firsta::after {
+.firsta {
   position: relative;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #404bbf;
+}
+.firsta::after {
   content: "";
   width: 100%;
-  position: absolute;
   left: 0;
   bottom: -1px;
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+  position: absolute;
 }
 .contact {
   font-style: normal;
