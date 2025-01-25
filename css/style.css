@@ -301,6 +301,7 @@ ul {
 }
 .threepar {
   text-align: center;
+  margin-bottom: 8px;
 }
 .fourul {
   display: flex;
@@ -360,8 +361,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #404bbf;
-  background-color: #404bbf;
+  background-color: #4d5ae5;
 }
 .socialsvg {
   fill: #f4f4fd;
