@@ -2,14 +2,6 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  content: "";
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  height: 4px;
-  background-color: #404bbf;
-  border-radius: 2px;
 }
 body {
   margin: 0 auto;
@@ -312,4 +304,14 @@ ul {
   letter-spacing: 0.02em;
   font-weight: 400;
   text-align: left;
+}
+.mainheader::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
