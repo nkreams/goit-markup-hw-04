@@ -440,7 +440,7 @@ ul {
   fill: #f4f4fd;
   background-color: #4d5ae5;
 }
-.socialsvgfoot:hover,
-.socialsvgfoot:focus {
+.socialalinkfooter:hover,
+.socialalinkfooter:focus {
   background-color: #31d0aa;
 }
