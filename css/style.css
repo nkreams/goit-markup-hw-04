@@ -409,17 +409,15 @@ ul {
 .footediv {
   display: flex;
   align-items: baseline;
+}
+.logotypediv {
   margin-right: 120px;
 }
-.socialmediafoot {
+.socialmediap {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-}
-.socialmediaul {
-  display: flex;
-  gap: 16px;
 }
